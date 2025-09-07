@@ -252,14 +252,7 @@ export default function InvoiceApp() {
         <div className="p-6 space-y-6">
           
           {/* رابط لعرض جميع الفواتير */}
-          <div className="text-center mb-6">
-            <Link 
-              href="/invocestable" 
-              className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2 rounded-lg font-medium transition"
-            >
-              📂 عرض جميع الفواتير
-            </Link>
-          </div>
+        
 
           {/* Customer & Date */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -395,12 +388,27 @@ export default function InvoiceApp() {
           </div>
 
           {/* Clear Button */}
-          <button
+            <div className="text-center grid grid-cols-2 items-center  mb-6">
+              <div className="mb-4">
+                  <Link 
+              href="/invocestable" 
+              className=" px-6 py-4 bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-600 hover:to-blue-700 text-white font-bold rounded-lg text-lg transition transform hover:scale-105 shadow-md"
+            >
+              📂 عرض جميع الفواتير
+            </Link>
+                </div>   
+                    <div className="mb-4">
+                      <button
             onClick={clearInvoice}
-            className="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-600 hover:to-blue-700 text-white font-bold rounded-lg text-lg transition transform hover:scale-105 shadow-md"
+            className=" px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-600 hover:to-blue-700 text-white font-bold rounded-lg text-lg transition transform cursor-pointer shadow-md"
           >
             🗑️ مسح الفاتورة
           </button>
+                </div>   
+          
+         
+          </div>
+       
         </div>
       </div>
     </div>

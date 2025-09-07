@@ -44,7 +44,7 @@ export default function InvoicesList() {
               <h1 className="text-3xl font-bold text-gray-800">📂 جميع الفواتير</h1>
               <p className="text-gray-600 mt-1">عدد الفواتير: {invoices.length}</p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-3">
+            <div className="grid grid-cols-2 gap-3">
               <Link 
                 href="/" 
                 className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg font-medium text-center transition"

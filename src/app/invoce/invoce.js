@@ -240,8 +240,8 @@ export default function InvoiceApp() {
   };
 
   return (
-    <div className="bg-gray-50 min-h-screen p-4 md:p-6 font-sans">
-      <div className="max-w-5xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
+    <div className="w-full bg-gray-50 min-h-screen p-4 md:p-6 font-sans">
+      <div className="  bg-white rounded-xl shadow-lg overflow-hidden">
 
         {/* Header */}
         <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-5 text-center">
@@ -388,7 +388,7 @@ export default function InvoiceApp() {
           </div>
 
           {/* Clear Button */}
-            <div className="text-center grid grid-cols-2 items-center  mb-6">
+            <div className="text-center md:grid grid-cols-2 items-center  mb-6">
               <div className="mb-4">
                   <Link 
               href="/invocestable" 

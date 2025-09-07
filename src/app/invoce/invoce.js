@@ -392,7 +392,7 @@ export default function InvoiceApp() {
               <div className="mb-4">
                   <Link 
               href="/invocestable" 
-              className=" px-6 py-4 bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-600 hover:to-blue-700 text-white font-bold rounded-lg text-lg transition transform hover:scale-105 shadow-md"
+              className=" px-6 py-4 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-600 hover:to-blue-700 text-white font-bold rounded-lg text-lg transition transform hover:scale-105 shadow-md"
             >
               📂 عرض جميع الفواتير
             </Link>
